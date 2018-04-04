@@ -33,4 +33,4 @@ curl -X POST -k http://localhost:3839/faiss/1.0/db/new -d '{"db_name":"1000w", "
 ```
 
 # Tips
-Faiss-proxy should run with faiss-server. There's some configs to faiss-proxy, to see them just run `./faiss_proxy --help`. Parameter `-faiss_endpoint` is the endpoint of faiss-server.
+Faiss-proxy should run with faiss-server. There's some configs for faiss-proxy, to see them just run `./faiss_proxy --help`. Parameter `-faiss_endpoint` is the endpoint of faiss-server.
